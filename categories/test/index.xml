@@ -6,7 +6,417 @@
         <description>Recent content in Test on kpmath</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://andrew93064.github.io/kpmath/categories/test/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 12 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://andrew93064.github.io/kpmath/categories/test/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>軌跡方程式</title>
+        <link>https://andrew93064.github.io/kpmath/post/track/test-chinese/</link>
+        <pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://andrew93064.github.io/kpmath/post/track/test-chinese/</guid>
+        <description>&lt;img src="https://andrew93064.github.io/kpmath/track_pic.jpg" alt="Featured image of post 軌跡方程式" /&gt;&lt;h1 id=&#34;軌跡方程式&#34;&gt;軌跡方程式&lt;/h1&gt;
+&lt;p&gt;觀念1：圓上任一點，與該圓的任意直徑兩端點連線，形成直角(三角形)。&lt;/p&gt;
+&lt;p&gt;觀念2：圓上任一點，到圓心的距離為定值，即半徑。&lt;/p&gt;
+&lt;p&gt;觀念3：拋物線上任一點，到焦點的距離與到準線的最小距離相等。&lt;/p&gt;
+&lt;p&gt;觀念4：橢圓上任一點，到兩焦點的距離和為定值。&lt;/p&gt;
+&lt;p&gt;觀念5：雙曲線上任一點，到兩焦點的距離差為定值。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;by kpshih&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;圓-1過圓內一點之弦中點軌跡&#34;&gt;圓 1、過圓內一點之弦中點軌跡&lt;/h2&gt;
+&lt;p&gt;圓 $O: x^2+y^2=100$ ，&lt;/p&gt;
+&lt;p&gt;過圓內一點 $P(8,0)$ 作圓 $O$ 的弦，&lt;/p&gt;
+&lt;p&gt;請問其弦中點 $M$ 的軌跡方程式為何？&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;連接 $\overline{OM}$ ，則 $\overline{OM},\bot,\overline{MP}$ 。
+（弦心距線段與該弦垂直）&lt;/li&gt;
+&lt;li&gt;故 $M$ 軌跡是以 $\overline{OP}$ 為直徑所作的圓。&lt;/li&gt;
+&lt;li&gt;$M$ 的軌跡方程式：（圓的直徑式）
+$(x-8)(x-0)+(y-0)(y-0)=0$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.desmos.com/calculator/baeif3qqtv?embed&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.desmos.com/calculator/baeif3qqtv?embed&lt;/a&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;圓-2過同心圓之切點軌跡&#34;&gt;圓 2、過同心圓之切點軌跡&lt;/h2&gt;
+&lt;p&gt;圓 $O: x^2+y^2=k^2$ ，其中 $0\leq k\leq 10$，&lt;/p&gt;
+&lt;p&gt;過 $P(10,0)$ 作切線，交圓 $O$ 於$A$、$B$，&lt;/p&gt;
+&lt;p&gt;請問其切點的軌跡方程式為何？&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;連接 $\overline{OA}$ 、 $\overline{OB}$，
+則 $\overline{OA},\bot,\overline{AP}$ 、 $\overline{OB},\bot,\overline{BP}$ 。&lt;/li&gt;
+&lt;li&gt;故 $A$ 是以 $\overline{OP}$ 為直徑所作的上半圓；
+$B$ 是以 $\overline{OP}$ 為直徑所作的上半圓。&lt;/li&gt;
+&lt;li&gt;切點的軌跡方程式：（圓的直徑式）
+$(x-10)(x-0)+(y-0)(y-0)=0$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.desmos.com/calculator/jog9blexns?embed&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.desmos.com/calculator/jog9blexns?embed&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;圓-3固定切線段長之點集合&#34;&gt;圓 3、固定切線段長之點集合&lt;/h2&gt;
+&lt;p&gt;圓 $O: x^2+y^2=6^2$ ，$P$ 為圓上一點，&lt;/p&gt;
+&lt;p&gt;過 $P$ 作切線，並在切線上取 $A、B$，&lt;/p&gt;
+&lt;p&gt;使得 $\overline{AP} =\overline{PB} =8$ ，即切線段長$=8$，&lt;/p&gt;
+&lt;p&gt;請問 $A、B$ 通過的圖形方程式為何？&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;連接 $\overline{OP}$  ， 則 $\overline{OP},\bot,\overline{AB}$ 。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;已知 $\overline{OP} =6$ 、 $\overline{AP} =\overline{PB} =8$ ，
+則 $\overline{OA}=\overline{OB}=\sqrt{6^2+8^2}=10$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;由此可知，$A、B$ 通過的圖形為所有距離 $O$ 為 $10$ 的點，即圓心為 $O$ 、半徑為 $10$ 的圓。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;若藍圓半徑為 $R$ 、切線段長為 $r$ ，
+$A、B$ 經過的圓方程式：（圓的標準式）
+$x^2+y^2=R^2+r^2$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.desmos.com/calculator/ufdqfyx20m?embed&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.desmos.com/calculator/ufdqfyx20m?embed&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.desmos.com/calculator/fwkgyhigum?embed&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.desmos.com/calculator/fwkgyhigum?embed&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;圓-4固定兩切線夾角之圓外一點軌跡&#34;&gt;圓 4、固定兩切線夾角之圓外一點軌跡&lt;/h2&gt;
+&lt;p&gt;圓 $O:x^2+y^2=5^2$ ， $P$ 為圓外一點，&lt;/p&gt;
+&lt;p&gt;過 $P$ 作切線，交圓 $O$ 於兩切點 $A$、$B$。&lt;/p&gt;
+&lt;p&gt;已知 $\angle APB = 60\degree$ ，&lt;/p&gt;
+&lt;p&gt;求 $P$ 通過的圖形方程式為何？&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;連接 $\overline{OA}$ ， 則 $\overline{OA},\bot,\overline{AP}$ 。
+（連接 $\overline{OB}$  ， 則 $\overline{OB},\bot,\overline{BP}$ 。）&lt;/li&gt;
+&lt;li&gt;已知 $\overline{OP} =5$ 、  $\angle APB = 60\degree$ ，
+則 $\angle APO = \angle BPO =30\degree$ ，
+則$\overline{OP}=5 ,\div, sin,30\degree=10$&lt;/li&gt;
+&lt;li&gt;$P$ 經過的圓方程式：（圓的標準式）$x^2+y^2=(\frac{5}{sin,30\degree})^2=10^2$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.desmos.com/calculator/3kgluwikgo?embed&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.desmos.com/calculator/3kgluwikgo?embed&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.desmos.com/calculator/wcbn44pufo?embed&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.desmos.com/calculator/wcbn44pufo?embed&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;拋物線-1已知圓上一點與一切線之圓心軌跡&#34;&gt;拋物線 1、已知圓上一點與一切線之圓心軌跡&lt;/h2&gt;
+&lt;p&gt;已知平面上一圓與直線 $L: y=-1$ 相切，並通過 $F(0,1)$，求該圓圓心 $P$ 的軌跡方程式。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;連接 $\overline{PF}$ ，並作 $\overline{PQ}$ 垂直 $L$ 於 $Q$ 。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$\because \overline{PQ}=\overline{PF}$
+$\therefore P$ 點通過的圖形，是以 $F$ 作為焦點、$y=-1$ 為準線的拋物線。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;拋物線方程式：（根據定義）&lt;/p&gt;
+&lt;p&gt;任一點到焦點的距離$=$到準線的距離&lt;/p&gt;
+&lt;p&gt;$\sqrt{x^2+(y-1)^2}=y-(-1)$&lt;/p&gt;
+&lt;p&gt;兩邊同時平方後展開：&lt;/p&gt;
+&lt;p&gt;$x^2+(y^2-2y+1)=y^2+2y+1$&lt;/p&gt;
+&lt;p&gt;化簡得到： $y=\frac{1}{4}x^2$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.desmos.com/calculator/1pe7ylq6hd?embed&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.desmos.com/calculator/1pe7ylq6hd?embed&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.desmos.com/calculator/5fqbtewcbq?embed&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.desmos.com/calculator/5fqbtewcbq?embed&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;拋物線-2同時與一圓一直線相切的圓之圓心軌跡&#34;&gt;拋物線 2、同時與一圓一直線相切的圓之圓心軌跡&lt;/h2&gt;
+&lt;p&gt;已知平面上一圓與直線 $L: y=-3$ 相切，並與另一圓 $(x-3)^2+y^2=3^2$ 相切，
+求該圓圓心 $P$ 的軌跡方程式。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$F(3,0)$ ，連接 $\overline{PF}$ 交圓 $F$ 於 $F&amp;rsquo;$ 。&lt;/li&gt;
+&lt;li&gt;作 $\overline{PQ}$ 垂直 $L$ 於 $Q$ ，得 $\overline{PQ}=\overline{PF’}$。&lt;/li&gt;
+&lt;li&gt;作 $L_2:y=-6$。&lt;/li&gt;
+&lt;li&gt;延長 $\overline{PQ}$ 交 $L_2$ 於 $Q&amp;rsquo;$ 。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;$$
+\begin{align*}
+\because &amp;amp;,,,\overline{PF}=\overline{PF&amp;rsquo;}+R,\
+&amp;amp;,,,\overline{PQ&amp;rsquo;}=\overline{PQ}+R,\
+&amp;amp;,,,\overline{PQ}=\overline{PF’}\
+\therefore
+&amp;amp;,,,\overline{PQ&amp;rsquo;}=\overline{PF}
+\end{align*}
+$$&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;故 $P$ 點通過的圖形，是以 $F$ 作為焦點、$y=-6$ 為準線的拋物線。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;拋物線方程式：（根據定義）&lt;/p&gt;
+&lt;p&gt;任一點到焦點的距離$=$到準線的距離&lt;/p&gt;
+&lt;p&gt;$\sqrt{x^2+(y-3)^2}=y-(-6)$&lt;/p&gt;
+&lt;p&gt;兩邊同時平方後展開：&lt;/p&gt;
+&lt;p&gt;$x^2+(y^2-6y+9)=y^2+12y+36$&lt;/p&gt;
+&lt;p&gt;化簡得到： $y=\frac{1}{18}x^2-\frac32$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.desmos.com/calculator/abfyawe4pe?embed&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.desmos.com/calculator/abfyawe4pe?embed&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.desmos.com/calculator/5av0rxijqt?embed&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.desmos.com/calculator/5av0rxijqt?embed&lt;/a&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;橢圓-1與一圓相切並過圓內一點之圓心軌跡&#34;&gt;橢圓 1、與一圓相切並過圓內一點之圓心軌跡&lt;/h2&gt;
+&lt;p&gt;平面上 $O: x^2+y^2=10^2$ 與 $F(6,0)$，&lt;/p&gt;
+&lt;p&gt;已知有一圓內切於 $O$，並且恆通過點 $F$，&lt;/p&gt;
+&lt;p&gt;求該圓圓心 $P$ 的軌跡方程式。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;作 $\overline{PO}$ 、 $\overline{PF}$ ，並且延長 $\overrightharpoon{OP}$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;令 $\overline{PF}=r$ ，則 $\overline{OP}=10-r$ 。
+（大圓半徑減去小圓半徑）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;由此可得到：$\overline{PF}+\overline{OP}=10$，
+即 $P$ 到 $O$、$F$ 的距離和恆為定值，
+圖形是以 $O$、$F$ 作為焦點的橢圓。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;計算橢圓方程式：&lt;/p&gt;
+&lt;p&gt;長軸長 $=10$、 $\overline{OF}=6$，&lt;/p&gt;
+&lt;p&gt;可得到短軸長 $=\sqrt{10^2-6^2}=8$。&lt;/p&gt;
+&lt;p&gt;橢圓的標準式： $\frac{(x-3)^2}{5^2}+\frac{y^2}{4^2}=1$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.desmos.com/calculator/oivyzkkatl?embed&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.desmos.com/calculator/oivyzkkatl?embed&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.desmos.com/calculator/6cs1mlkiaq?embed&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.desmos.com/calculator/6cs1mlkiaq?embed&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;橢圓-2與兩內離圓同時相切的圓之圓心軌跡&#34;&gt;橢圓 2、與兩內離圓同時相切的圓之圓心軌跡&lt;/h2&gt;
+&lt;p&gt;已知平面上兩圓內離，圓$O:x^2+y^2=10^2$ 與圓$F:(x+5)^2+y^2=3^2$ ，今有第三圓與兩圓相切，問其圓心軌跡方程式為何？&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;&lt;strong&gt;- 以下將分別討論兩種情形 -&lt;/strong&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.desmos.com/calculator/vjj5wzevzy?embed&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.desmos.com/calculator/vjj5wzevzy?embed&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;$-,Case,,1,-$&lt;/p&gt;
+&lt;p&gt;內切於大圓 $O$ ，並與小圓 $F$ 外切。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.desmos.com/calculator/f1rcdxy6jd?embed&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.desmos.com/calculator/f1rcdxy6jd?embed&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;稱藍色圓為 $O_A$ 、其圓心 $A$，
+作 $\overline{AF}$、$\overline{AO}$。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;令圓 $O$ 半徑為 $R$、圓 $F$ 半徑為 $r$、
+藍色圓 $O_A$ 半徑為 $a$。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$\overline{AF} = a+r$、$\overline{AO}=R-a$，
+則 $\overline{AF}+\overline{AO}=R+r$ 。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;故圓心 $A$ 所經過的軌跡，是以 $F$、$O$ 為焦點的橢圓。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;計算橢圓方程式：&lt;/p&gt;
+&lt;p&gt;長軸長 $=13$、 $\overline{OF}=5$，&lt;/p&gt;
+&lt;p&gt;可得到短軸長 $=\sqrt{13^2-5^2}=12$。&lt;/p&gt;
+&lt;p&gt;橢圓的標準式： $\frac{(x-2.5)^2}{6.5^2}+\frac{y^2}{6^2}=1$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;$-,Case,,2,-$&lt;/p&gt;
+&lt;p&gt;內切於大圓 $O$ ，並與小圓 $F$ 內切 。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.desmos.com/calculator/m9v5jic5yd?embed&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.desmos.com/calculator/m9v5jic5yd?embed&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;稱藍色圓為 $O_B$ 、其圓心 $B$，
+作 $\overline{BF}$、$\overline{BO}$。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;令圓 $O$ 半徑為 $R$、圓 $F$ 半徑為 $r$、
+藍色圓 $O_B$ 半徑為 $b$。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$\overline{BF} = b-r$、$\overline{BO}=R-b$，
+則 $\overline{BF}+\overline{BO}=R-r$ 。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;故圓心 $A$ 所經過的軌跡，是以 $F$、$O$ 為焦點的橢圓。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;計算橢圓方程式：&lt;/p&gt;
+&lt;p&gt;長軸長 $=7$、 $\overline{OF}=5$，&lt;/p&gt;
+&lt;p&gt;可得到短軸長 $=\sqrt{7^2-5^2}=2\sqrt{6}$。&lt;/p&gt;
+&lt;p&gt;橢圓的標準式： $\frac{(x-2.5)^2}{3.5^2}+\frac{y^2}{\sqrt6^2}=1$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;雙曲線-1與已知圓相切並通過圓外一點之圓心軌跡&#34;&gt;雙曲線 1、與已知圓相切並通過圓外一點之圓心軌跡&lt;/h2&gt;
+&lt;p&gt;已知圓 $O:x^2+y^2=4^2$ 與 $F(8,0)$ ，&lt;/p&gt;
+&lt;p&gt;今有一圓通過 $F$ ，並與圓 $O$ 相切，&lt;/p&gt;
+&lt;p&gt;試問該圓之圓心軌跡方程式為何？&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;&lt;strong&gt;- 以下將分別討論兩種情形 -&lt;/strong&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.desmos.com/calculator/qe9csdlghm?embed&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.desmos.com/calculator/qe9csdlghm?embed&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;$-,Case,,1,-$&lt;/p&gt;
+&lt;p&gt;通過 $P$ 點，並與圓 $O$ 外切。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.desmos.com/calculator/nuoa9mrloa?embed&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.desmos.com/calculator/nuoa9mrloa?embed&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;連結 $\overline{AO}$、$\overline{AF}$ 。&lt;/li&gt;
+&lt;li&gt;令圓 $O$ 半徑 $R$ 、綠色圓 $A$ 半徑 $r$ 。&lt;/li&gt;
+&lt;li&gt;得到 $\overline{AO}=R+r$ 、$\overline{AF}=r$ ，
+則 $\overline{AO}-\overline{AF}=R$ 。&lt;/li&gt;
+&lt;li&gt;$A$ 到兩焦點 $O$、$F$ 的距離差為定值 $R$，故 $A$ 的軌跡為右半邊的雙曲線。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;$-,Case,,2,-$&lt;/p&gt;
+&lt;p&gt;通過 $P$ 點，並與圓 $O$ 內切。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.desmos.com/calculator/bsye6dlhnv?embed&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.desmos.com/calculator/bsye6dlhnv?embed&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;連結 $\overline{BO}$、$\overline{BF}$ 。&lt;/li&gt;
+&lt;li&gt;令圓 $O$ 半徑 $R$ 、紅色圓 $B$ 半徑 $r$ 。&lt;/li&gt;
+&lt;li&gt;得到 $\overline{BO}=r-R$ 、$\overline{BF}=r$ ，
+則 $\overline{BF}-\overline{BO}=R$ 。&lt;/li&gt;
+&lt;li&gt;$B$ 到兩焦點 $O$、$F$ 的距離差為定值 $R$，故 $B$ 的軌跡為左半邊的雙曲線。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;綜合以上兩情況&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;$\because\overline{AO}-\overline{AF}=R$ 、 $\overline{BF}-\overline{BO}=R$
+令 $P$ 為 $A$ 與 $B$ 的集合， $\therefore\vert,\overline{PO}-\overline{PF}
+,\vert=R$ ，即完整的雙曲線定義。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;計算雙曲線方程式：&lt;/p&gt;
+&lt;p&gt;$R=4$ 、 $\overline{OF}=8$，可得到 $b=\sqrt{8^2-4^2}=4\sqrt3$。&lt;/p&gt;
+&lt;p&gt;雙曲線的標準式： $\frac{(x-4)^2}{4^2}-\frac{y^2}{(4\sqrt3)^2}=1$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;雙曲線-2與兩外離圓同時相切的圓之圓心軌跡&#34;&gt;雙曲線 2、與兩外離圓同時相切的圓之圓心軌跡&lt;/h2&gt;
+&lt;p&gt;已知平面上兩圓外離，圓 $O:x^2+y^2=4^2$ 與圓 $P:(x+10)^2+y^2=1$ ，今有第三圓與兩圓相切，問其圓心軌跡方程式為何？&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;&lt;strong&gt;- 以下將分別討論兩種情形 -&lt;/strong&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.desmos.com/calculator/nd6b5rhb9f?embed&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.desmos.com/calculator/nd6b5rhb9f?embed&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;$-,Case,,1,-$&lt;/p&gt;
+&lt;p&gt;一、「外切圓$O$、外切圓$F$」(左半雙曲線)
+二、「內切圓$O$、內切圓$F$」(右半雙曲線)&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.desmos.com/calculator/d5zyyat05s?embed&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.desmos.com/calculator/d5zyyat05s?embed&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;連結 $\overline{AO}$、$\overline{AF}$ 。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;令右圓 $O$ 半徑 $R$ 、左圓 $F$ 半徑 $r$ 、紅色圓 $A$ 半徑 $a$ 。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;左側： $\overline{AO}=a+R$ 、$\overline{AF}=a+r$ ，則 $\overline{AO}-\overline{AF}=R-r$ 。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;右側： $\overline{AO}=a-R$ 、$\overline{AF}=a-r$ ，則 $\overline{AO}-\overline{AF}=-R+r$ 。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;得到 $\vert\overline{AO}-\overline{AF}\vert=\vert R-r\vert$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$A$ 到兩焦點 $O$、$F$ 的距離差 $\vert R-r \vert$ 為定值，故 $A$ 的軌跡為完整的的雙曲線。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;計算雙曲線方程式：&lt;/p&gt;
+&lt;p&gt;$R=4$、$r=1$、$\overline{OF}=10$，可得到 $b=\sqrt{10^2-(4-1)^2}=\sqrt{91}$。&lt;/p&gt;
+&lt;p&gt;雙曲線的標準式：$\frac{(x-4)^2}{3^2}-\frac{y^2}{(\sqrt{91})^2}=1$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;$-,Case,,2,-$&lt;/p&gt;
+&lt;p&gt;三、「外切圓$O$、內切圓$F$」(左半雙曲線)
+四、「內切圓$O$、外切圓$F$」(右半雙曲線)&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.desmos.com/calculator/bsoflvkbpn?embed&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.desmos.com/calculator/bsoflvkbpn?embed&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;連結 $\overline{BO}$、$\overline{BF}$ 。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;令右圓 $O$ 半徑 $R$ 、左圓 $F$ 半徑 $r$ 、藍色圓 $B$ 半徑 $b$ 。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;左側： $\overline{BO}=b+R$ 、$\overline{BF}=b-r$ ，則 $\overline{BO}-\overline{BF}=R+r$ 。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;右側： $\overline{BO}=b-R$ 、$\overline{BF}=b+r$ ，則 $\overline{BO}-\overline{BF}=-R-r$ 。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;得到 $\vert\overline{BO}-\overline{BF}\vert=R+r$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$B$ 到兩焦點 $O$、$F$ 的距離差 $R+r$ 為定值，故 $B$ 的軌跡為完整的的雙曲線。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;計算雙曲線方程式：&lt;/p&gt;
+&lt;p&gt;$R=4$、$r=1$、$\overline{OF}=10$，可得到 $b=\sqrt{10^2-(4+1)^2}=5\sqrt{3}$。&lt;/p&gt;
+&lt;p&gt;雙曲線的標準式：$\frac{(x-4)^2}{5^2}-\frac{y^2}{(5\sqrt{3})^2}=1$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;hr&gt;
+&lt;ol start=&#34;11&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;與兩直線同時相切的圓之圓心軌跡&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;圓上任一點，和已知p點所連線段之中點M的軌跡&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;與已知兩點「距離比為固定值」的所有點之軌跡 — 阿波羅圓&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;木棍貼著牆面、地面下滑時，其中點軌跡&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;木棍貼著牆面、地面下滑時，棍上某等分點之軌跡&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;reference&#34;&gt;Reference&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;原先看到嘉義高中的教甄題目，想說試著把類似問題搜集起來、做成圖，想不到網路上已經有人做了，大部分只是把它做成desmos動圖而已。作圖過程需要克服很多小問題、可以學到很多！&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;有熊老師。&lt;strong&gt;&lt;strong&gt;給指考戰士的：「軌跡圖形」在搞什麼軌？&lt;/strong&gt;&lt;/strong&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://tpdjdje0525.medium.com/%E7%B5%A6%E6%8C%87%E8%80%83%E6%88%B0%E5%A3%AB%E7%9A%84-%E8%BB%8C%E8%B7%A1%E5%9C%96%E5%BD%A2-%E5%9C%A8%E6%90%9E%E4%BB%80%E9%BA%BC%E8%BB%8C-fca7c4dba66f&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://tpdjdje0525.medium.com/給指考戰士的-軌跡圖形-在搞什麼軌-fca7c4dba66f&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;嘉義高中111年數學科教師甄試。第17題。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://andrew93064.github.io/kpmath/kpmath/%E8%BB%8C%E8%B7%A1%E6%96%B9%E7%A8%8B%E5%BC%8F%20da8e4f122d0545f7a343a55163a0385a/messageImage_1665243852244.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;messageImage_1665243852244.jpg&#34;
+	
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Chinese Test</title>
         <link>https://andrew93064.github.io/kpmath/post/test-chinese/</link>
         <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
